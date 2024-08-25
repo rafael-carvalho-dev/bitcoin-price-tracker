@@ -44,6 +44,7 @@ Rastreador de Preço de Bitcoin é uma aplicação em Python que rastreia o pre�
 
 1.1 **For Windows systems, run / Para sistema Windows, execute:**
     python main.py
+
 1.2 **For Linux and Mac systems, run / Para sistemas Linux e Mac, execute:**
     python3 main.py
 
