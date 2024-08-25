@@ -3,4 +3,3 @@ email
 python-dotenv
 pycoingecko
 rich
-cx-Freeze
