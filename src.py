@@ -153,3 +153,18 @@ def send_email_alert(sender, sender_password, subject, body, recipient):
         print(f'Erro ao enviar e-mail: {e}')
     finally:
         server.quit()
+
+
+def menu():
+    print('\nMenu:')
+    print('1. Alterar Moeda')
+    print('2. Alterar Valor de Referência')
+    print('3. Alterar E-mail')
+    print('4. Sair')
+    print('5. Manter configuração atual e prosseguir com o monitoramento')
+    
+    while True:
+        choice = input('Escolha uma opção: ')
+        if choice in ['1', '2', '3', '4', '5']:
+            return choice
+        print('Escolha inválida. Por favor, escolha uma opção válida.')
